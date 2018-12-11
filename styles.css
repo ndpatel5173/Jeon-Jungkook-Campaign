@@ -1,0 +1,40 @@
+#jk1 {
+    background-image: url("https://wallpaper-house.com/data/out/2/wallpaper2you_23422.jpg");
+}
+
+#donate {
+    background-color:#BAF1FF;
+
+}
+h2, h5, p, h1{
+    display: flex;
+    justify-content: center;
+}
+
+#donate button {
+    width:250px;
+    height:50px;
+    font-size:20px;
+    background:pink;
+}
+#donate{
+    display: flex;
+    flex-direction: column;
+   align-items: center; 
+    text-align: center;
+}
+#pics img{
+    width:30%;
+    padding:20px;
+}
+#pics {
+    justify-content: space-around; 
+    align-items:center;
+    padding: 10px;
+}
+#donate button:hover {
+    background:#50FDA5;
+}
+body {
+    font-family: 'Charmonman', cursive;
+}
